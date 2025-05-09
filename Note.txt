@@ -1,0 +1,7 @@
+1. vite.js 설치
+
+2. 프로젝트 실행
+npm run dev
+
+3. 브라우저 확인
+http://localhost:5173/
