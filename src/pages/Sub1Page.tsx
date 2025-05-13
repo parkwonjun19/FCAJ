@@ -1,6 +1,6 @@
 // src/pages/Sub1Page.tsx
 
-import React from 'react';
+// import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 

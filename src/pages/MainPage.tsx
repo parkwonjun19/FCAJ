@@ -1,6 +1,6 @@
 // src/pages/MainPage.tsx
 
-import React from 'react';
+// import React from 'react';
 
 export default function MainPage() {
   // 환영 메시지와 공지 리스트 데이터

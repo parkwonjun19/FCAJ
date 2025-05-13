@@ -19,12 +19,12 @@ const theme1 = createTheme({
     secondary: { main: '#494c7d' },
   },
 });
-const theme2 = createTheme({
-  palette: {
-    primary: { main: '#df2b5b' },
-    secondary: { main: '#3b5998' },
-  },
-});
+// const theme2 = createTheme({
+//   palette: {
+//     primary: { main: '#df2b5b' },
+//     secondary: { main: '#3b5998' },
+//   },
+// });
 
 function App() {
   // 동적 테마 변경이 필요하면 useState로 관리

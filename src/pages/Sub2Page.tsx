@@ -1,6 +1,6 @@
 // src/pages/Sub2Page.tsx
 
-import React from 'react';
+// import React from 'react';
 import { Container, Typography, Button } from '@mui/material';
 
 /**
