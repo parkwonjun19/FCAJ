@@ -1,7 +1,7 @@
 // src/pages/MainPage.tsx
 
 // import React from 'react';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 
 
 export default function MainPage() {
@@ -13,7 +13,7 @@ export default function MainPage() {
   // Fragment(<>...</>)를 사용하면 불필요한 div 없이 여러 태그를 그룹화할 수 있습니다.
   return (
     <>
-      
+
         <h2>메인 페이지</h2>
         <p>{welcome}</p>
         <ul>
@@ -22,7 +22,7 @@ export default function MainPage() {
             <li key={idx}>{item}</li>
           ))}
         </ul>
-      
+
     </>
   );
 }
