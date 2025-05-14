@@ -1,9 +1,12 @@
 Header{
     height: 56px;
+    & + .MuiContainer-root{
+        // padding: 0;
+    }
 }
 .Container{
     min-height: calc(100vh - 126px);// 헤더(56px)+푸터(68px) 높이만큼 빼기
-    padding: 4px;
+    padding: 0 !important;
     background: pink;
 }
 Footer{

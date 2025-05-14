@@ -11,10 +11,10 @@ import TabSlider from '../components/TabSlider';
  */
 export default function Sub1Page() {
   return (
-    <Box sx={{ py: 4, textAlign: 'center' }}>
+    <Box>
 
       <TabSlider />
-      
+
       <Typography variant="h4" gutterBottom>
         Sub1 페이지
       </Typography>
