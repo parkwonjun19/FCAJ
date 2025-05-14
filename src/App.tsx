@@ -10,7 +10,7 @@ import Sub4Page from './pages/Sub4Page';
 import Sub5Page from './pages/Sub5Page';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import './styles/global.css';
+import './styles/index.scss';
 
 // 여러 테마 예시 (필요에 따라 동적으로 바꿀 수도 있음)
 const theme1 = createTheme({
@@ -36,7 +36,7 @@ function App() {
       {/* CssBaseline: 브라우저별 기본 CSS를 초기화 (reset) */}
       <CssBaseline />
       {/* BrowserRouter: 리액트 라우터의 SPA 내비게이션 컨텍스트 제공 */}
-      <BrowserRouter>
+      <BrowserRouter basename="/FCAJ">
         {/* Layout: Header, Footer, Container 등 공통 레이아웃 적용 */}
         <Layout>
           {/* Routes: URL 경로에 따라 해당 컴포넌트 렌더링 */}

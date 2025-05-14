@@ -3,6 +3,7 @@
 // import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import TabSlider from '../components/TabSlider';
 
 /**
  * Sub1Page 컴포넌트는 /sub1 경로에서 보여질 페이지입니다.
@@ -11,6 +12,9 @@ import Box from '@mui/material/Box';
 export default function Sub1Page() {
   return (
     <Box sx={{ py: 4, textAlign: 'center' }}>
+
+      <TabSlider />
+      
       <Typography variant="h4" gutterBottom>
         Sub1 페이지
       </Typography>

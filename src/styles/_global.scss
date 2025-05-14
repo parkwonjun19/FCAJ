@@ -1,0 +1,11 @@
+Header{
+    height: 56px;
+}
+.Container{
+    min-height: calc(100vh - 126px);// 헤더(56px)+푸터(68px) 높이만큼 빼기
+    padding: 4px;
+    background: pink;
+}
+Footer{
+    height: 68px;
+}
